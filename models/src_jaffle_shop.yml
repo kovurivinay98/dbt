@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: raw        # Check if your Snowflake DB is named RAW
+    schema: jaffle_shop   # Check if your Snowflake Schema is named JAFFLE_SHOP
+    tables:
+      - name: customers
+      - name: orders
