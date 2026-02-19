@@ -1,0 +1,6 @@
+version: 2
+models:
+  - name: dim_cust
+    description: "Customer Dimension Table"
+  - name: facts_orders
+    description: "Orders Fact Table"
