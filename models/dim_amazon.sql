@@ -6,4 +6,4 @@ customer_name,
 country,
 state,
 city
-from {{ref("amazon")}}
+from {{ref("stage_amazon")}}

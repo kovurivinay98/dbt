@@ -9,4 +9,4 @@ customer_id,
 unit_price,
 discount,
 shipping_cost
-from {{ref("amazon")}}
+from {{ref("stage_amazon")}}
