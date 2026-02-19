@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: "Contains dIMENSTIONAL VALUES OF AMAZON_ECOM FILE"
+
+    columns:
+      - name: Customer_id
+      
+      - name: customer_name
+
+      - name: state
+
+      - name: city

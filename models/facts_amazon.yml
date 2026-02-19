@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: "Facts of Amazon data set"
+    description: "Have the fact values of amazon dataset"
+  
+    columns:
+      - name: "Order_id"
+        description: "Unique orderid for all id's"
