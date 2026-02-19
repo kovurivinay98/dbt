@@ -1,0 +1,6 @@
+order_id,order_date,customer_id,customer_name,customer_email,product_name,amount,status
+101,2026-02-01,1,Alice Johnson,alice@email.com,Laptop,1200,shipped
+102,2026-02-01,2,Bob Smith,bob@email.com,Mouse,25,shipped
+103,2026-02-02,1,Alice Johnson,alice@email.com,Monitor,300,pending
+104,2026-02-03,3,Charlie Brown,char@email.com,Keyboard,50,shipped
+105,2026-02-03,2,Bob Smith,bob@email.com,Laptop,1200,cancelled
