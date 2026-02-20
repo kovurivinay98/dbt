@@ -9,4 +9,4 @@ state,
 postalcode,
 region
 from
-{{ref("stage_orders")}}
+{{ source("orders_src","orders1")}}
