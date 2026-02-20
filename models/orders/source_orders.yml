@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: orders_src
+    database: raw
+    schema: dbt_vreddy
+    tables:
+      - name: orders1
