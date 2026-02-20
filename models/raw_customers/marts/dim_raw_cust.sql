@@ -1,4 +1,7 @@
 {{config(materialized='table')}}
+
+
+
 select
 distinct
 customer_id,
