@@ -1,0 +1,77 @@
+version: 2
+
+sources:
+  - name: raw_cust
+    database: analytics
+    schema: raw
+
+    tables:
+      - name: country_info
+        description: "Contains Country Codes and Names"
+        
+
+        config:
+          loaded_at_field: updated_at
+          freshness:
+            error_after:
+              count: 12
+              period: hour
+            warn_after:
+              count: 24
+              period: hour
+
+      - name: cust_info
+        description: "Contains Customer Information"
+     
+
+        config:
+          loaded_at_field: updated_at
+          freshness:
+            error_after:
+              count: 12
+              period: hour
+            warn_after:
+              count: 24
+              period: hour
+
+      - name: orders
+        description: "Contains Orders"
+        
+
+        config:
+          loaded_at_field: updated_at
+          freshness:
+            error_after:
+              count: 2
+              period: day
+            warn_after:
+              count: 1
+              period: day
+
+      - name: ord_items
+        description: "Contains order information"
+       
+
+        config:
+          loaded_at_field: updated_at
+          freshness:
+            error_after:
+              count: 2
+              period: day
+            warn_after:
+              count: 1
+              period: day
+
+      - name: prod
+        description: "Contains product Information"
+        
+
+        config:
+          loaded_at_field: updated_at
+          freshness:
+            error_after:
+              count: 2
+              period: day
+            warn_after:
+              count: 1
+              period: day
