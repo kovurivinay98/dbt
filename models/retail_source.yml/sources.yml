@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: retail_source
+    database: vinay
+    schema: public
+
+    tables:
+      - name: custom
+        freshness: 
+          error_after:
+            count: 2
+            period: day
+          warn_after:
+            count: 1
+            period: day
+      - name: ord
+        freshness: 
+          error_after:
+            count: 2
+            period: day
+          warn_after:
+            count: 1
+            period: day
+      - name: prod
+        freshness: 
+          error_after:
+            count: 2
+            period: day
+          warn_after:
+            count: 1
+            period: day
+        
+        
