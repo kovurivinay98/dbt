@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ss_source
+    database: vinay
+    schema: public
+
+    tables:
+      - name: superstore_raw
