@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: orders_data
+    database: vinay
+    schema: public
+   
+    tables:
+      - name: dbt_orders
+        
+        
