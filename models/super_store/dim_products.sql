@@ -10,4 +10,4 @@ select
 
 from {{ ref('stg_superstore') }}
 
-group by productiddbt run
+group by productid
