@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: customers_raw
+    database: vinay
+    schema: public
+
+    tables:
+      - name: customers_raw

@@ -1,0 +1,9 @@
+{{config(materialized='view')}}
+
+select 
+order_item_id,
+order_id,
+product_id,
+quantity,
+unit_price
+from {{ source("project","order_items_processed")}}
