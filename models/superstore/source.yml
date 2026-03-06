@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: customers_raw
+  - name: superstore
     database: vinay
     schema: public
 
     tables:
-      - name: customers_raw
+      - name: superstore_raw
