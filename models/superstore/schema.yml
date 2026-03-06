@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: dim_superstore_customer
+  - name: dim_superstore_customers
     columns:
       - name: customer_sk
         tests:
@@ -38,7 +38,7 @@ models:
         tests:
           - relationships:
               arguments: 
-                to: ref('dim_superstore_customer')
+                to: ref('dim_superstore_customers')
                 field: customer_sk
 
       - name: product_sk
