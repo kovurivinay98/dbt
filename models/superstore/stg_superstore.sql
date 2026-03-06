@@ -18,6 +18,7 @@ productid,
 category,
 subcategory,
 productname,
+sales,
 quantity,
 discount,
 profit
