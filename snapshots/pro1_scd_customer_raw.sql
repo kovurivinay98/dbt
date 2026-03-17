@@ -3,7 +3,7 @@
 {{ config(
     target_schema = 'public',
     unique_key = 'customer_id',
-    strategy = 'checks',
+    strategy = 'check',
     check_cols = ['email','address']
 
 )}}
