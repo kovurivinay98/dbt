@@ -1,0 +1,8 @@
+sources:
+  - name: pract_1
+    database: vinay
+    schema: public
+    tables:
+      - name: orders_raw
+
+      - name: pro_1_customer_raw
