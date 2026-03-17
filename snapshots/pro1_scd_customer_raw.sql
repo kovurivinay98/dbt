@@ -1,6 +1,6 @@
 {% snapshot customer_raw_scd %}
 
-{{ config=(
+{{ config(
     target_schema = 'public',
     unique_key = 'customer_id',
     strategy = 'checks',
