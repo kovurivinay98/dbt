@@ -6,3 +6,5 @@ sources:
       - name: orders_raw
 
       - name: pro_1_customer_raw
+
+      - name: CUSTOMER_RAW_SCD 
