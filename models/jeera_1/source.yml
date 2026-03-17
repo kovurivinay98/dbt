@@ -1,0 +1,6 @@
+sources:
+  - name: jeera_1
+    database: vinay
+    schema: public
+    tables:
+      - name: customer_raw
