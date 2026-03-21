@@ -1,0 +1,10 @@
+version: 02
+
+sources:
+  - name: ecom_source
+    database: e_commerce
+    schema: raw
+    tables:
+      - name: customer_raw_csv
+      - name: orders_raw_csv
+      - name: payments_raw_csv
